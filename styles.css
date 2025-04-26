@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+  border: 1px solid black;
+  padding-left: 40vw;
+  }
+
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+.nav-bar li {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: .05px solid darkgray;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: gray;
+}
+
+.nav-links {
+  text-decoration: none;
+}
+
+.nav-bar li:hover {
+  background-color: midnightblue;
+}
+
+.nav-links:hover {
+  color: white;
+}
+
+.nav-links:active {
+  color: gray;
+}
+
+.nav-bar li:active {
+  background-color: white;
+}
