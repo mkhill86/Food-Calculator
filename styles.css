@@ -41,3 +41,21 @@ body {
 .nav-bar li:active {
   background-color: white;
 }
+
+.personal-info {
+  display: inline-flex;
+  justify-content: space-evenly;
+  padding: 5px 20px;
+}
+
+.personal-info label, input, span {
+  padding: 0 10px;
+}
+
+#weight, #height {
+  width: 30px;
+}
+
+#feet, #inches {
+  width: 20px;
+}
