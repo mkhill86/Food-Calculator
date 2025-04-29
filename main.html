@@ -17,7 +17,7 @@
       </ul>
     </nav>
   </header>
-  <div class="food-calc">
+
     <h1>Daily Food Calculator</h1>
     <div class="personal-info">
       <form action="main.html">
@@ -30,14 +30,24 @@
       <span class="or">-or-</span>
       <input type="text" name="feet" id="feet" maxlength="1"><label for="feet">ft.</label>
       <input type="text" name="inches" id="inches" maxlength="2"><label for="inches">in.</label>
-      <button type="button" id="thats-me">That's Me!</button>
+      <button type="submit" id="thats-me">That's Me!</button>
     </form>
     </div>
     <div class="recommendations">
       <h2>Here are your recommendations</h2>
-      <p>Now enter the food you plan to eat today (or have already eaten today) and I will tell you if its within your recommended nutritional limits.</p>
-      <form action="main.html"></form>
     </div>
+      
+    <div class="food-calc">
+      <p>Now enter the food you plan to eat today (or have already eaten today) and I will tell you if its within your recommended nutritional limits.</p>
+      <form action="main.html">
+        <label for="food">Food Type: </label>
+        <input type="text" name="food" id="food">
+        <label for="calories">Total Calories: </label>
+        <input type="number" name="calories" id="calories">
+        <label for="carbs">Total Carbs: </label>
+        <input type="number" name="carbs" id="carbs">
+        <button type="submit">Add It In</button>
+      </form>
     </div>
 </body>
 </html>

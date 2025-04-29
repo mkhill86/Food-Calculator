@@ -13,21 +13,22 @@ body {
   }
 
 .nav-bar li {
-  display: inline-block;
-  font-size: 1.4rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: .05px solid darkgray;
-  padding: 10px 20px;
   border-radius: 50px;
-  color: gray;
+  list-style: none;
 }
 
 .nav-links {
+  display: inline-block;
   text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  color: #212529;
 }
 
 .nav-bar li:hover {
-  background-color: midnightblue;
+  background-color: #212529;
 }
 
 .nav-links:hover {
@@ -58,4 +59,22 @@ body {
 
 #feet, #inches {
   width: 20px;
+}
+
+button {
+  background-color: lime;
+  border: 1px solid darkgreen;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  padding: 5px 15px;
+}
+
+button:hover {
+  background-color: white;
+  color: darkgreen;
+}
+
+button:focus {
+  background-color: lime;
+  border: 1px solid darkgreen;
 }
