@@ -17,6 +17,8 @@ body {
   border: .05px solid darkgray;
   border-radius: 50px;
   list-style: none;
+  max-height: 80%;
+  max-width: 30%;
 }
 
 .nav-links {
